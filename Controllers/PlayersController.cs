@@ -46,15 +46,18 @@ namespace PlayerManagement.Controllers
         // GET: Players/Create
         public IActionResult Create()
         {
+            /*var teams = _context.Team.ToList();
+            ViewBag.Tealist = teams;*/
             return View();
         }
 
+      
         // POST: Players/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to, for 
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Name,BirthDate,Height,Weight,BirthPlace")] Player player)
+        public async Task<IActionResult> Create([Bind("Id,Name,BirthDate,Height,Weight,BirthPlace,TeamSigned")] Player player)
         {
             if (ModelState.IsValid)
             {

@@ -27,7 +27,7 @@ namespace PlayerManagement.Models
         [Required]
         [DataType(DataType.Date)]
         [Display(Name = "Founded Date")]
-        [DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = "{0:yyyy-YY-dd}")]
+        [DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = "{0:dd-mm-yyyy}")]
         public DateTime FoundedYear { get; set; }
 
         [Required]

@@ -1,4 +1,6 @@
-﻿@model PlayerManagement.Models.Player
+﻿
+@model PlayerManagement.Models.Player
+
 
 @{
     ViewData["Title"] = "Create";
@@ -37,6 +39,16 @@
                 <input asp-for="BirthPlace" class="form-control" />
                 <span asp-validation-for="BirthPlace" class="text-danger"></span>
             </div>
+           @* @foreach (var team in @ViewBag.TeamList)
+              {*@
+            <div class="form-group">
+                <label asp-for="TeamSigned" class="control-label"></label>         
+                    @* <select asp-for="TeamSigned" class="form-control"  asp-items = "@ViewBag.Name" > </select>    *@
+                     <input asp-for="TeamSigned" class="form-control" />                 
+                 <span asp-validation-for="TeamSigned" class="text-danger"></span>
+            </div>
+              @*}*@
+                
             <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-primary" />
             </div>

@@ -148,7 +148,6 @@ E:\PlayerManagement\obj\Debug\netcoreapp3.1\PlayerManagement.TagHelpers.output.c
 E:\PlayerManagement\obj\Debug\netcoreapp3.1\PlayerManagement.RazorCoreGenerate.cache
 E:\PlayerManagement\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
 E:\PlayerManagement\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
-E:\PlayerManagement\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
 E:\PlayerManagement\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
 E:\PlayerManagement\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
 E:\PlayerManagement\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LoginPartial.cshtml.g.cs

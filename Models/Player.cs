@@ -14,7 +14,7 @@ namespace PlayerManagement.Models
         [Required]
         [DataType(DataType.Date)]
         [Display(Name = "Date Of Birth")]
-        [DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = "{0:yyyy-YY-dd}")]
+        [DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = "{0:dd-mm-yyyy}")]
         public DateTime BirthDate { get; set; }
 
         [Required]
@@ -28,9 +28,12 @@ namespace PlayerManagement.Models
         [Required(ErrorMessage = "Birth place name should less than 100 character")]
         [StringLength(100)]
         public string BirthPlace { get; set; }
-
         
+        [Display(Name = "Team Signed To")]
+        public string TeamSigned { get; set; }
+
         public int? TeamId { get; set; }
+        public string TeamName { get; set; }
         public Team Team { get; set; }
 
     }

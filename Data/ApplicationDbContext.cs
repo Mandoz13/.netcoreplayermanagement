@@ -28,6 +28,8 @@ namespace PlayerManagement.Data
                .HasIndex(t => t.Name)
                .IsUnique();
 
+            
+
             base.OnModelCreating(modelBuilder);
         }
     }
